@@ -16,10 +16,10 @@
         <div class="col-2" >
             <ul class="list-group">
                 <li class="list-group-item">
-                    Login
+                    <a href="login.php">Login</a>
                 </li>
                 <li class="list-group-item">
-                    Projekte
+                    <a href="projekte.php">Projekte</a>
                 </li>
                 <li class="list-group-item">
                    <a href="todos.php">Aktuelles Projekt</a>

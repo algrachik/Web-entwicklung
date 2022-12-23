@@ -66,4 +66,44 @@ $aufgaben = array (
     </tbody>
 </table>
 
+<div>
+    <h4> Bearbeiten/erstellen: </h4>
+    <form>
+        <div class="form-group">
+            <label for="aufgabebez">Aufgabenbezeichnung:</label>
+            <input class="form-control" id="aufgabebez" placeholder="Aufgabe">
+        </div>
+        <div class="form-group">
+            <label for="beschreibung">Beschreibung der Aufgabe:</label>
+            <textarea class="form-control" id="beschreibung" placeholder="Beschreibung" rows="3" ></textarea>
+        </div>
+        <div class="form-group">
+            <label for="date">Erstellungsdatum:</label>
+            <input class="form-control" id="date" placeholder="01.01.11">
+        </div>
+        <div class="form-group">
+            <label for="deadline">Fällig bis:</label>
+            <input class="form-control" id="deadline" placeholder="01.01.11">
+        </div>
+        <div class="form-group">
+            <label for="zureiter">Zugehörige Reiter:</label>
+            <select class="form-control" id="zureiter">
+                <option>Todo</option>
+                <option>Erledigt</option>
+                <option>Verscoben</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="zustaendig">Zuständig:</label>
+            <select class="form-control" id="zureiter">
+                <option>Alina</option>
+                <option>Daniel</option>
+                <option>Tilda</option>
+            </select>
+        </div>
+
+    </form>
+    <button type="button" class="btn btn-primary">Speichern</button>
+    <button type="button" class="btn btn-secondary">Reset</button>
+</div>
 <?php include ("footer.php");?>
